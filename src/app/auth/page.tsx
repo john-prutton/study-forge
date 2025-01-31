@@ -1,9 +1,9 @@
-export default function LoginPage() {
+import { AuthForm } from "@/components/auth-form";
+
+export default function AuthPage() {
   return (
-    <div className="h-screen grid place-items-center">
-      <div>
-        <h1 className="text-4xl font-bold text-white">Login here</h1>
-      </div>
+    <div className="flex min-h-screen items-center justify-center">
+      <AuthForm />
     </div>
   );
 }
